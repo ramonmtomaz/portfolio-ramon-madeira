@@ -1,112 +1,258 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ramon Madeira Tomaz</title>
-    <link rel="stylesheet" href="estilo.css">    
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-pagina-toda">
+      <header>
+        <div class="texto-header">
+          <h1>Ramon Madeira Tomaz</h1>
+        </div>
+        <img src="imagens/eu.png" alt="Eu" />
+      </header>
 
-<header>
-  <div class="texto-header">   
-   <h1>Ramon Madeira Tomaz</h1>
-   <p>"Eu prefiro ter paz do que ter razão."</p>  
-   </div>
-   <img src="imagens/eu.png" alt="Eu">
-</header>
+      <nav>
+        <div class="barranav">
+          <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#links-uteis">Links Úteis</a></li>
+          </ul>
+        </div>
+      </nav>
 
-<nav>
-  <div class="barranav">
-  <ul>
-    <li><a href="#sobre">Sobre Mim</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>    
-    <li><a href="#projetos">Projetos</a></li>
-    <li><a href="#links-uteis">Links Úteis</a></li>
-  </ul>
-</div>
-</nav>
+      <main>
+        <div class="coluna-esquerda">
+          <section id="sobre">
+            <div class="sobre-mim">
+              <h1>Sobre Mim</h1>
+              <p>
+                Atuando como Auditor de Prevenção de Perdas no
+                KaBuM!/Magalog.<br /><br />
+                Sou estudante do 4º período de Análise e Desenvolvimento de
+                Sistemas e, além da faculdade, estudo também por meio de cursos
+                na Alura, prática com projetos pessoais e estudos com conteúdos
+                online, sempre buscando consolidar conhecimentos e acompanhar as
+                tendências do mercado.<br />
+                Tenho interesse em iniciar minha carreira na área da
+                programação, com o foco em atuar como Desenvolvedor Front-End,
+                porém, estou aberto para outras oportunidades que estão ao meu
+                alcance!
+              </p>
+            </div>
+          </section>
+          <section id="habilidades">
+            <div class="formacao">
+              <h1>Formação</h1>
+              <p>
+                Atualmente cursando Análise e Desenvolvimento de Sistemas na
+                Unicesumar e também estudo em algumas plataformas online como:
+                Alura, Portal do Saber (Plataforma disponibilizada para
+                funcionários do KaBuM!), YouTube, entre outros.
+              </p>
+            </div>
+          </section>
+          <section id="habilidades">
+            <div class="habilidade">
+              <h2>Habilidades</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Google Apps Script</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+                <li>Google Cloud Computing Foundations</li>
+              </ul>
+            </div>
+          </section>
 
-<main>
-  <div class="coluna-esquerda">
-    <section id="sobre">
-      <h1>Sobre Mim</h1>
-      <p>Meu nome é Ramon Madeira Tomaz, tenho 25 anos e nasci em 19 de maio de 2000. Moro em Cariacica, Espírito Santo.<br>
-      Atualmente trabalho no Centro de Distribuição do KaBuM! em Viana, Espírito Santo. Atuo no setor de Prevenção de Perdas há 2 anos e 7 meses.<br>
-      Apaixonado por computação e jogos desde que era criança, hoje estudo com o intuito de me aperfeiçoar nesta área e busco uma oportunidade de trabalhar com o que eu amo.</p>
+          <section id="projetos">
+            <div class="projetos">
+              <h1>Projetos</h1>
+              <p>
+                Desenvolvi sites para facilitar a manipulação das planilhas do
+                meu setor, utilizando HTML, CSS e Google Apps Script que hoje
+                são fundamentais para a execução de auditorias operacionais
+                diárias no setor.
+              </p>
+              <div class="setas">
+                <img
+                  src="imagens/seta-esquerda.png"
+                  alt="seta"
+                  id="seta-esquerda"
+                />
+                <h2 style="text-align: center">Exemplos</h2>
+                <img
+                  src="imagens/seta-direita.png"
+                  alt="seta"
+                  id="seta-direita"
+                />
+              </div>
+              <div class="cftv" style="display: flex">
+                <h3>Projeto CFTV - Sistema de Gestão de Apurações</h3>
+                <p>
+                  O Sistema de Gestão de Análises de CFTV é uma aplicação web
+                  interna desenvolvida para otimizar o fluxo de trabalho da
+                  equipe de Prevenção de Perdas da KaBuM!. A ferramenta
+                  centraliza e organiza as solicitações de análise de pedidos,
+                  permitindo um controle eficiente desde a abertura do chamado
+                  até a sua conclusão. Construído com Google Apps Script como
+                  backend e uma interface simples em HTML/CSS/JS, o sistema
+                  utiliza uma Planilha Google como banco de dados, tornando a
+                  solução robusta, de baixo custo e facilmente escalável.
+                </p>
+                <p>
+                  Saiba mais em
+                  <a
+                    href="https://github.com/ramonmtomaz/projeto-site-cftv"
+                    target="_blank"
+                    >Projeto CFTV</a
+                  >
+                </p>
+              </div>
 
-    </section>
-    <section id="habilidades">
-      <h1>Formação</h1>
-      <p>Atualmente cursando Análise e Desenvolvimento de Sistemas na Unicesumar e também estudo em algumas plataformas online como: Alura, Portal do Saber (Plataforma disponibilizada para funcionários do KaBuM!), YouTube, entre outros.</p>
-      <h2>Habilidades</h2>
-      <ul>        
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Node.js</li>
-          <li>Google Cloud Computing Foundations</li>
-          <li>Google Apps Script</li>
-          <li>Google Sheets/Excel</li>
-          <li>Looker Studio</li>
-      </ul>
-    </section>
-    <section id="projetos">
-      <h1>Projetos</h1>
-      <p>Atualmente tenho alguns projetos finalizados que são utilizados no meu trabalho e alguns pessoais em andamento. Dentre esses, destaco:</p>
-      <div class="setas">         
-        <img src="imagens/seta-esquerda.png" alt="seta" id="seta-esquerda">
-          <h2 style="text-align: center;">Projetos Finalizados</h2>
-          <img src="imagens/seta-direita.png" alt="seta" id="seta-direita">
-      </div>
-      <div class="audestoque" style="display: flex;">
-        <h3>Interface para Auditoria de Estoque</h3>
-        <p>Nesta auditoria, realizamos a validação dos produtos armazenados em determinados locais no estoque, no qual chamamos de "Endereços". Desenvoli esta interface com o intuíto de facilitar a comparação da quantidade dos produtos armazenados e a quantidade de produtos que foram validados. Além disso, também permite registrar inconformidades e observações durante o processo de auditoria. <br> Está interface foi desenvolvida em uma planilha Google, foi utilizado, HTML, CSS e Google Apps Script.</p>
-        <img src="imagens/interfaceestoque.jpeg" alt="Inter face de Auditoria de Estoque">
-      </div>
-      
-      <div class="audpedido" style="display: none;">
-      <h3>Interface para Auditoria de Pedidos</h3>
-      <p>Utilizando o mesmo conceito da planilha de auditoria de estoque, criei uma interface personalizada para a auditoria de pedidos. Essa interface permite uma análise mais rápida e eficiente dos dados, além de gerar relatórios automáticos que ajudam na tomada de decisões.</p>
-      <img src="imagens/interfacepedido.jpeg" alt="Interface de Auditoria de Pedidos">
-      </div>
+              <div class="audestoque" style="display: none">
+                <h3>Projeto Auditoria de Estoque</h3>
+                <p>
+                  O Sistema de Auditoria de Estoque é uma aplicação web
+                  completa, desenvolvida para simplificar e digitalizar o
+                  processo de contagem e verificação de inventário em um
+                  armazém. A ferramenta oferece uma interface amigável e
+                  otimizada para coletores de dados, permitindo que os
+                  operadores realizem a auditoria de endereços físicos,
+                  registrem produtos e apontem divergências de forma rápida e
+                  precisa.Utilizando a plataforma Google Apps Script, o sistema
+                  funciona como um frontend robusto para uma Planilha Google,
+                  que atua como banco de dados. Isso cria uma solução de baixo
+                  custo, alta performance e fácil manutenção para o
+                  gerenciamento de inventário.
+                </p>
+                <p>
+                  Saiba mais em
+                  <a
+                    href="https://github.com/ramonmtomaz/projeto-auditoria-estoque"
+                    target="_blank"
+                    >Projeto Auditoria de Estoque</a
+                  >
+                </p>
+              </div>
 
-      <h2>Projetos em Andamento</h2>
-      <p>Tenho dois projetos pessoais em andamento, pensando em aprimorar minhas habilidades em Desenvolvimento Web, comecei a desenvolver um site para um studio de estética e outro para controle financeiro.</p>    
-    </section>
-  </div>
-  <div class="coluna-direita">
+              <div class="audpedido" style="display: none">
+                <h3>Projeto Auditoria de Pedidos</h3>
+                <p>
+                  O Sistema de Auditoria de Outbound é uma ferramenta
+                  desenvolvida em Google Apps Script para agilizar e garantir a
+                  precisão no processo de expedição de mercadorias. A aplicação,
+                  que roda diretamente dentro de uma Planilha Google, permite
+                  que os auditores auditem os pacotes antes do envio,
+                  verificando se cada nota fiscal está sendo destinada ao grupo
+                  correto de transportadoras. O grande diferencial do projeto é
+                  a performance. Todos os dados de expedição são pré-carregados
+                  na interface do usuário, permitindo que a validação de cada
+                  "bip" de DANFE seja instantânea, sem a necessidade de
+                  consultar a planilha a cada leitura, tornando o processo
+                  extremamente rápido e eficiente.
+                </p>
+                <p>
+                  Saiba mais em
+                  <a
+                    href="https://github.com/ramonmtomaz/projeto-auditoria-pedidos"
+                    target="_blank"
+                    >Projeto Auditoria de Pedidos</a
+                  >
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="coluna-direita">
+          <aside>
+            <h2>Um Pouco Mais Sobre Mim</h2>
+            <p>
+              A paixão pela computação na minha vida começou cedo, quando
+              criança, sempre via meu irmão mais velho mexendo em computador e
+              jogando video games. Por ter acesso a esse mundo desde cedo,
+              sempre tive o interesse em entender como esse mundo funciona e
+              como eu poderia criar minhas próprias experiências dentro dele.<br />
+              Hoje tenho a oportunidade de me aprofundar nessa área e, a cada
+              aprendizado, me encanto mais por esse mundo!
+            </p>
+          </aside>
 
-    <aside><h2>Um Pouco Mais Sobre Mim</h2>
-      <p>A paixão pela computação na minha vida começou cedo, quando criança, sempre via meu irmão mais velho mexendo em computador e jogando video games. Por ter acesso a esse mundo desde cedo, sempre tive o interesse em entender como esse mundo funciona e como eu poderia criar minhas próprias experiências dentro dele.<br>
-      Hoje tenho a oportunidade de me aprofundar nessa área e, a cada aprendizado, me encanto mais por esse mundo!</p>
-    </aside>
+          <aside>
+            <h2>Hackathon UniCesumar 2025</h2>
+            <p>
+              Participei do Hackathon UniCesumar 2025, onde tive a oportunidade
+              de realizar cursos e treinamentos sobre Google Cloud. Durante o
+              evento, conquistei Skills Badges na trilha de Fundamentos de
+              Google Cloud, ampliando meus conhecimentos em computação em nuvem.
+            </p>
+          </aside>
 
-    <aside>
-      <h2>Hackathon UniCesumar 2025</h2>
-      <p>Participei do Hackathon UniCesumar 2025, onde tive a oportunidade de realizar cursos e treinamentos sobre Google Cloud. Durante o evento, conquistei Skills Badges na trilha de Fundamentos de Google Cloud, ampliando meus conhecimentos em computação em nuvem.</p>
-    </aside>
+          <aside id="links-uteis">
+            <h2>Links Úteis</h2>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/rmnmadeira/" target="_blank"
+                  >Instagram</a
+                >
+                <img src="imagens/instagram (1).png" alt="instagram" />
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ramonmadeiratomaz/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+                <img src="imagens/linkedin (1).png" alt="" />
+              </li>
+              <li>
+                <a href="https://github.com/RmTz-027" target="_blank">GitHub</a>
+                <img src="imagens/github.png" alt="" />
+              </li>
+              <li>
+                <a href="https://wa.me/5527997903765" target="_blank"
+                  >WhatsApp</a
+                >
+                <img src="imagens/whatsapp.png" alt="" />
+              </li>
+              <li>
+                <a
+                  href="https://www.credly.com/users/ramon-madeira-tomaz"
+                  target="_blank"
+                  >Certificados Google Cloud
+                  <img src="imagens/google (1).png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </main>
 
+      <footer>
+        <p>&copy; 2025 - Ramon Madeira Tomaz</p>
+        <p>
+          <a href="mailto:ramonmadeiratomaz@gmail.com"
+            >ramonmadeiratomaz@gmail.com</a
+          >
+        </p>
+        <p><a href="tel:+5527997903765">+55 27 99790-3765</a></p>
+      </footer>
 
-    <aside id="links-uteis">       
-      <h2>Links Úteis</h2> 
-      <ul>
-      <li><a href="https://www.instagram.com/rmnmadeira/" target="_blank">Instagram</a> <img src="imagens/instagram (1).png" alt="instagram"></li>
-      <li><a href="https://www.linkedin.com/in/ramonmadeiratomaz/" target="_blank">LinkedIn</a> <img src="imagens/linkedin (1).png" alt=""></li>
-      <li><a href="https://github.com/RmTz-027" target="_blank">GitHub</a> <img src="imagens/github.png" alt=""></li> 
-      <li><a href="https://wa.me/5527997903765" target="_blank">WhatsApp</a> <img src="imagens/whatsapp.png" alt=""></li>
-      <li><a href="https://www.credly.com/users/ramon-madeira-tomaz" target="_blank">Certificados Google Cloud <img src="imagens/google (1).png" alt=""></a></li>
-      </ul>
-    </aside>
-  </div>  
-</main> 
-
-<footer>
-  <p>&copy; 2025 - Ramon Madeira Tomaz</p>
-  <p><a href="mailto:ramonmadeiratomaz@gmail.com">ramonmadeiratomaz@gmail.com</a></p>
-  <p><a href="tel:+5527997903765">+55 27 99790-3765</a></p>    
-</footer>
-  
-  <script src="script.js"></script>
-</body>
+      <script src="script.js"></script>
+    </div>
+  </body>
 </html>
